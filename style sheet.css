@@ -1,0 +1,73 @@
+.maincontainer {
+    font-size: 52px;
+    color: rgb(4, 4, 250);
+    font-family: Diplomata;
+    font-weight: bold;
+    /* Do you activate this below section please activate classes of this (.b, .c, .f)  */
+    position: absolute; left: 3%; top: 0%;
+    
+
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f {
+    position: absolute;
+}
+
+.e {
+    color: red;
+    left: 14px;
+    /* Please open this for animation */
+     animation-name: spin; 
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(359deg);
+    }
+}
+
+.a {
+    left: 5px;
+}
+
+.b {
+     /* please open this main container for position change with acyivte toggle line comment on the duplicate top value. */
+    top: -23px;
+    /* top: -25px; */
+    transform: rotate(45deg);
+    left: 33px;
+}
+
+.c {
+    left: 10px;
+    /* please open this main container for position change with acyivte toggle line comment on the duplicate top value */
+    top: 10px;   
+    /* top: 20px; */
+    transform: rotate(250deg);
+}
+
+.d {
+    left: 33px;
+}
+
+.f {
+     /* please open this main container for position change with acyivte toggle line comment onthe duplicate top value */
+    top: -35px;
+    /* top: -40px; */
+    left: 42px;
+    transform: rotate(200deg);
+}

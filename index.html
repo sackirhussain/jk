@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sackir hussain</title>
-  <link rel="icon" href=".//images/sackir logo.png" type="image/gif" sizes="16*16">
+<link rel="stylesheet" href=".//style sheet.css">
+  <link rel="icon" href=".//images/Logo.PNG" type="image/gif" sizes="16*16">
+  <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
     integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>sackir hussain</title>
+
 </head>
 
 <body>
@@ -16,7 +19,19 @@
   <header class="bg-info  " style="position: fixed; width: 100vw; z-index: 1;">
     <div class="row text-white ">
       <div class="col-md-6 col-9 ">
-        <img style="width: 80px; height: 60px;" src=".//images/sackir logo.png" alt="">
+
+        <div class="maincontainer" style="height: 100px;">
+          
+          <span  class="e">S</span>
+          <span   class="a">I</span>
+          <span   class="b">,</span>
+          <span   class="c">,</span>
+          <span   class="d">I</span>
+          <span   class="f">'</span>
+        
+      </div>
+    
+       
         <h3 style="position: absolute; top: 10px; margin-left: 100px;">SACKIR HUSSAIN</h3>
       </div>
       <div class="col-md-6 col-3 my-auto">
@@ -56,7 +71,7 @@
           <img src=".//images/download cute babies wallpapers  6.jpg" alt="" class="img-fluid rounded-circle">
         </div>
         <div class="col-md-6 ">
-          <h4> <i class="fas fa-home">Sackir Hussain <br> Patteriakathoot , Chowara. p.o <br></i> Pin-683571</h4>
+          <h4> <i class="fas fa-home"> Sackir Hussain.P.I <br> Patteriakathoot , Chowara. p.o <br></i> Pin-683571</h4>
           <h5 style="letter-spacing: 3px; word-spacing: 5px; "> <i> " You are the average of 5 people you hang around "
           </h5>
           </i>
@@ -71,15 +86,18 @@
   <section class="bg-light p-5 " id="service-section">
     <div class="container">
       <h1 class="text-center"><i class="fas fa-people-carry">Our Services</i></h1>
+     <h5> More Details For Elements Products:-   <a href=".//Documents/Elements Advertising.pdf"> <span style="text-decoration:none; color: rgb(11, 180, 172); font-weight: bold; font-size: 15px;">Please Click Her </span> </a></h5>
+     
       <div class="row">
         <div class="col-md-4 mt-2">
           <div class="card text-center ">
             <div class="card">
               <i class="fas fa-business-time display-1 text-info"></i>
               <div class="card-body">
-                <h5 class="card-title">Elements</h5>
+                <h5 class="card-title">Elements </h5> 
                 <p class="card-text">All Product Avilable. Quality are certified by Ayush Department by with a Ayush
                   Premium certificated.Our all Products Ayurveda Wellness product</p>
+                 
               </div>
             </div>
           </div>
@@ -235,36 +253,58 @@
     <div class="container">
       <h1 class="text-center"><i class="fas fa-map-marked-alt ">Condact</i></h1>
       <div class="row">
-        <div class="form-group col-md-6 ">
+        <div class=" col-md-6 ">
           <h3> <i class="fas fa-mobile-alt">+91 9526896230</i></h3>
           <img src=".//images/images (3).jpg" alt="" class="img-fluid rounded-circle ">
         </div>
-        <form class="ml-5 p-5 ">
-          <div class="form-row ">
-            <div class="form-group col-md-6 ">
-              <label for="inputEmail4">Name</label>
-              <input type="text" class="form-control" id="inputEmail4" placeholder="Name" name="Name">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">Mobile</label>
-              <input type="number" class="form-control" id="inputPassword4" placeholder="Mobile" name="Mobile">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputAddress">Email</label>
-            <input type="email" class="form-control" id="inputAddress" placeholder="Email" name="Email">
-          </div>
-          <div class="form-group">
-            <label for="inputAddress2">Subject</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Subject" name="Subject">
-          </div>
-          <div class="form-group">
-            <label for="inputAddress2">Massage</label>
-            <textarea class="form-control" cols="50" rows="5" placeholder="Type your massage her"
-              name="Massage"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send</button>
+        <form id="submit-form" action="">
+          <table class="mt">
+            <tr>
+
+              <td class="t-d">
+
+                <input type="text" id="fname" name="Name" placeholder="Name"
+                  style="font-size: 15px; font-family:inherit; width: 512px; height: 35px; margin-top: 15px;">
+              </td>
+            </tr>
+            <tr>
+
+              <td class="t-d">
+
+                <input type="number" id="mobile" name="Mobile" placeholder="Mobile"
+                  style="font-size: 15px; font-family:inherit; width: 512px; height: 35px; margin-top: 15px;">
+              </td>
+            </tr>
+            <tr>
+              <td>
+
+                <input type="email" id="bname" name="Email" placeholder="Email"
+                  style="font-size: 15px; font-family:inherit; width: 512px; height: 35px;margin-top: 15px;">
+              </td>
+            </tr>
+            <tr>
+              <td class="t-d">
+
+                <input type="text" id="input-subject" name="Subject" placeholder="Subject"
+                  style="font-size: 15px; font-family:inherit; width: 512px; height: 35px; margin-top: 15px;">
+              </td>
+            </tr>
+            <tr>
+              <td class="t-d">
+
+                <textarea name="Massage" id="subject" cols="70" rows="6" style="margin-top:15px"
+                  placeholder="Your Massage"></textarea>
+
+              </td>
+
+            </tr>
+            <td> <button type="submit" class="sub text-center"
+                style=" margin-left: 250px; width: 100px; background-color: rgb(40, 79, 207); color: white;">
+                <b>Send</b> </td>
+
+          </table>
         </form>
+        
       </div>
     </div>
   </section>
@@ -287,19 +327,10 @@
   <!-- Footer Section -->
 
   <!-- Script Section -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
-    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/1e27f71670.js" crossorigin="anonymous"></script>
+
   <script>
     $("#submit-form").submit((e) => {
-      e.preventDefault()
+      e.preventDefault();
       $.ajax({
         url: "https://script.google.com/macros/s/AKfycbx1FTSz0Y2sPYT-1_Gmn2VzDiXT6MzqfL3RwFhwl2ydFCIwMZUW/exec",
         data: $("#submit-form").serialize(),
@@ -316,6 +347,17 @@
       })
     })
   </script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/1e27f71670.js" crossorigin="anonymous"></script>
+
   <!-- Script Section -->
 </body>
 
